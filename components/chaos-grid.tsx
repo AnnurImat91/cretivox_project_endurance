@@ -52,8 +52,8 @@ export const ChaosGrid = ({ gsapLoaded }: ChaosGridProps) => {
 
     const ctx = window.gsap?.context(() => {
       window.gsap?.to(col1Ref.current, {
-        y: -150,
-        scrollTrigger: { trigger: containerRef.current, start: "top bottom", end: "bottom top", scrub: 1.2 },
+        y: -100,
+        scrollTrigger: { trigger: containerRef.current, start: "top bottom", end: "bottom top", scrub: 1 },
       })
       window.gsap?.to(col2Ref.current, {
         y: 100,
