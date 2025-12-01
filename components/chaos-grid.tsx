@@ -75,7 +75,7 @@ export const ChaosGrid = ({ gsapLoaded }: ChaosGridProps) => {
           <h2 className="text-6xl md:text-8xl font-black text-(--color-foreground) tracking-tighter">
             THE
             <br />
-            PLAYGROUND
+            PROJECTS
           </h2>
         </div>
         <div className="hidden md:block text-right">
